@@ -1,4 +1,7 @@
-# Step by step guide
+
+# VS Code setup guide for C# .NET development
+
+## Step by step guide
 
 * Download [VS Code](https://code.visualstudio.com/download) for the platform Your device runs on
 
@@ -12,6 +15,6 @@
 
 * (optional) Install **NuGet Package Manager** extension (ID: jmrog.vscode-nuget-package-manager)
 
-# TO-DOs
+## TO-DOs
 
 * Add comments to extension installation steps with brief comment on each extension (check whether to use markdown paragraphs)
