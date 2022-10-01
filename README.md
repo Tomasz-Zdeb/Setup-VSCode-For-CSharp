@@ -3,7 +3,9 @@
 
 ## Step by step guide
 
-* Download [VS Code](https://code.visualstudio.com/download) for the platform Your device runs on
+* Download [VS Code](https://code.visualstudio.com/download)
+
+* Download [.NET SDK](https://dotnet.microsoft.com/en-us/download)
 
 * Install **C#** extension by **Microsoft** (ID: ms-dotnettools.csharp)  
 
@@ -14,3 +16,9 @@
 * (optional) Install **GitLens** extension (ID: eamodio.gitlens)
 
 * (optional) Install **NuGet Package Manager** extension (ID: jmrog.vscode-nuget-package-manager)
+
+ ---
+
+## References
+
+ > [.NET CLI Docs](https://learn.microsoft.com/en-us/dotnet/core/tools/)
