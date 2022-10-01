@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tMuvoKzZ4YytlLa/tU09ieV2gI+jppsLPWeZDvWPsz8VpoJxL///UYKBsvta01NdS0n429j8KbMhNZM/R+6ftg==",
+  "success": true,
+  "projectFilePath": "G:\\synchronized_data_tz\\dev\\Setup_VS_Code_For_C_Sharp\\MyLibrary\\MyLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tzt96\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\tzt96\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
