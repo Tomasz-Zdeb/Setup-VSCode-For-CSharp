@@ -43,6 +43,18 @@
 
       dotnet new gitignore
 
+* generate assets for build and debug - **C# Extension** should automatically prompt You whether You want to generate them, but if it does not, You can generate them manually ussing **command pallette**.
+  * Open command pallette:  
+
+         CTRL + SHIFT + P
+  * Look for:
+  
+        .NET Generate Assets for Build and Debug
+  If an error occurs, especially one that says that **OmniSharp** is not running (and all attempts to restart it from **command pallette** fail), some previous version of **C# Extension** could be installed to solve it. But if that's not the case, or if You want to check different solutions, feel free to check out [Stack Overflow issue](https://stackoverflow.com/questions/62558818/unable-to-generate-assets-to-build-and-debug-omnisharp-server-is-not-running) related to that matter.
+  > In case of succes, directory with files containing configuration is created
+
+  ![Generated assets structure](./README_IMAGES/run_debug_assets_files.png)
+
  ---
 
 ## References
