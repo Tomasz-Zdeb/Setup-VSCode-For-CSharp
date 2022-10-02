@@ -431,3 +431,8 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+MyLibrary/obj/MyLibrary.csproj.nuget.dgspec.json
+MyLibrary/obj/MyLibrary.csproj.nuget.g.props
+MyLibrary/obj/MyLibrary.csproj.nuget.g.targets
+MyLibrary/obj/project.assets.json
+MyLibrary/obj/project.nuget.cache
