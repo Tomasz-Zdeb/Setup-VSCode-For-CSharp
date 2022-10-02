@@ -55,8 +55,19 @@
 
   ![Generated assets structure](./README_IMAGES/run_debug_assets_files.png)
 
+## Running the app
+
+* to directly run the app, **cd** into the **Project** directory in **VS Code's** integrated terminal and use:
+
+      dotnet run
+  The project will run directly in the integrated terminal without any additional functionalities like debugger.
+
+* Make use of the **Run and Debug Assets** generated previously, to benefit for example from debbugging capabilities.
+  * Press  **F5** to run the default selected profile (since the right profile will be the first one, of two we generated, it will be selected by default)
+  * Go to **Run and Debug** side menu and launch **.NET Core Launch (console)** profile - notice that it's name matches with the name stated in **launch.json** file that was generated previously.
+
  ---
 
 ## References
 
- > [.NET CLI Docs](https://learn.microsoft.com/en-us/dotnet/core/tools/)
+ > [.NET CLI Docs](https://learn.microsoft.com/en-us/dotnet/core/tools/)  
