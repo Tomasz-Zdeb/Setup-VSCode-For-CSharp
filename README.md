@@ -42,6 +42,11 @@
 * Create **.gitignore** file to exclude output files
 
       dotnet new gitignore
+  in case You already commited some of the files that are being excluded, before actually generating gitignore file, you should perform:
+
+      git rm -rf --cached .
+      git add .
+  which will remove and read all of the files with respect to the **.gitignore** file. That means that this time files won't be tracked by git anymore. Some more detail can be found on [Stack Overflow issue](https://stackoverflow.com/questions/25436312/gitignore-not-working) regarding that matter.
 
 * Generate assets for build and debug - **C# Extension** should automatically prompt You whether You want to generate them, but if it does not, You can generate them manually ussing **command pallette**.
   * open command pallette:  
