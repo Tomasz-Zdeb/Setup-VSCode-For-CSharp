@@ -66,6 +66,36 @@
   * Press  **F5** to run the default selected profile (since the right profile will be the first one, of two we generated, it will be selected by default)
   * Go to **Run and Debug** side menu and launch **.NET Core Launch (console)** profile - notice that it's name matches with the name stated in **launch.json** file that was generated previously.
 
+## Adding NuGet Packages to the project
+
+* While being in the **Project's directory**, use:
+
+      dotnet add package PACKAGE_NAME
+  to add the latest non-preview version of a package to the Project.
+
+* Insert the reference manually
+  * add entry into **.csproj** file between **ItemGroup** tags
+  
+        <ItemGroup>  
+          <PackageReference Include="PACKAGE_NAME" Version="PACKAGE_VERSION" />  
+        </ItemGroup>
+  * perform
+
+        dotnet restore
+
+      to fetch referenced packages
+
+* Use **NuGet Package Manager** extension
+
+  * open command pallette:  
+
+        CTRL + SHIFT + P
+  * look for:
+
+        NuGet Package Manager: Add Package
+  * Insert desired package name
+  * choose the package version
+
  ---
 
 ## References
