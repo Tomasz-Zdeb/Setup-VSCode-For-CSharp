@@ -39,6 +39,10 @@
 
       dotnet add PROJECT_NAME/PROJECT_NAME.csproj reference LIBRARY_NAME/LIBRARY_NAME.csproj
 
+* create **.gitignore** file to exclude output files
+
+      dotnet new gitignore
+
  ---
 
 ## References
