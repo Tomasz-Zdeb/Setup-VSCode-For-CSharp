@@ -93,8 +93,9 @@
   * look for:
 
         NuGet Package Manager: Add Package
-  * Insert desired package name
+  * insert desired package name
   * choose the package version
+  * select the **Project** You want to add the **NuGet** reference to
 
  ---
 
