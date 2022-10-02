@@ -35,6 +35,10 @@
 
       dotnet sln SOLUTION_NAME.sln add ./PROJECT_NAME/PROJECT_NAME.csproj
 
+* add references betwen **projects** (if there are any)
+
+      dotnet add PROJECT_NAME/PROJECT_NAME.csproj reference LIBRARY_NAME/LIBRARY_NAME.csproj
+
  ---
 
 ## References
