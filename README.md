@@ -70,4 +70,8 @@
 
 ## References
 
- > [.NET CLI Docs](https://learn.microsoft.com/en-us/dotnet/core/tools/)  
+* >[.NET CLI Docs](https://learn.microsoft.com/en-us/dotnet/core/tools/)  
+
+* > [Microsoft C# with VS guide](https://learn.microsoft.com/en-us/shows/dotnet/get-started-vscode-csharp-net-core-windows)  
+
+* >[T. Corey's C# with VS guide](https://www.youtube.com/watch?v=r5dtl9Uq9V0)
