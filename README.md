@@ -81,9 +81,12 @@
 * Insert the reference manually
   * add entry into **.csproj** file between **ItemGroup** tags
   
-        <ItemGroup>  
+      ```xml
+      <ItemGroup>  
           <PackageReference Include="PACKAGE_NAME" Version="PACKAGE_VERSION" />  
-        </ItemGroup>
+      </ItemGroup>
+      ```
+
   * perform
 
         dotnet restore
